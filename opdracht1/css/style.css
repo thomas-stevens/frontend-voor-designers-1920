@@ -80,7 +80,6 @@ p{
   color: #fff;
 }
 
-
 .accordion {
   display: grid;
   grid-column-start: 1;
@@ -101,26 +100,26 @@ p{
 }
 
 .active, .accordion:hover {
-  background-color: #05396b;
-  color: #fff;
+  transform: scale(1.05);
 }
 
-.accordion:after {
+.accordion::after {
   display: flex;
   justify-content: flex-end;
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  color: #fff;
-  font-size: 13px;
+  align-self: center;
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  color: #05396b;
+  font-size: 20px;
   float: right;
-  margin-top: -1.4em;
+  margin-top: -1.1em;
 }
 
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+.active::after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0 1.1em;
   background-color: #05396b;
   max-height: 0;
   overflow: hidden;
@@ -130,23 +129,57 @@ p{
 
 .panel p{
   color: #fff;
+  /* display: inline-block; */
 }
 
-.panel p:hover{
-  color: #fff;
+.panel .kolom{
+  float: right;
+  text-align: right;
+  margin-right: 2em;
 }
 
-.huismodel{
+.panel span{
+  font-weight: bolder;
+  color: #5cdb95;
+}
+
+.margin{
+  margin-top: .5em;
+}
+
+#huismodel{
   display: grid;
   grid-column-start: 3;
   grid-row-start: 1;
   grid-row-end: 10;
-  background-image: url(../img/huis1.png);
+  background-image: url(../img/default.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: -4px 10px 25px #000000;
-
+  height: 338px;
+  width: 512px;
 }
+
+#huismodel.cdw {
+  background-image: url(../img/huis1.png);
+}
+
+#huismodel.pz {
+  background-image: url(../img/huis2.png);
+}
+
+#huismodel.rh {
+  background-image: url(../img/huis3.png);
+}
+
+#huismodel.lp {
+  background-image: url(../img/huis4.png);
+}
+
+#huismodel.kw {
+  background-image: url(../img/huis5.png);
+}
+
 
 footer{
   display: flex;

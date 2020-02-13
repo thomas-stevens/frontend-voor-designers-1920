@@ -6,18 +6,29 @@
 */
 
 //Bron: https://www.w3schools.com/howto/howto_js_accordion.asp
-
 var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+
+  acc[i].addEventListener("click",
+
+  function() {
     this.classList.toggle("active");
+
     var panel = this.nextElementSibling;
+
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
-    } else {
+    }
+
+    else {
       panel.style.maxHeight = panel.scrollHeight + "px";
+
+      var huisVeranderd = document.querySelector('#huismodel');
+
+      huisVeranderd.className = "";  // Maakt het eerst leeg, en voegt dan de volgende klik toe
+      huisVeranderd.classList.add(this.id); // Hierin voeg je de class toe aan de hand van welke panel je klikt.
     }
   });
 }
