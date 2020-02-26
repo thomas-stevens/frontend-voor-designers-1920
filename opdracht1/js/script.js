@@ -27,7 +27,7 @@ for (i = 0; i < acc.length; i++) {
 
       var huisVeranderd = document.querySelector('#huismodel');
 
-      huisVeranderd.className = "";  // Maakt het eerst leeg, en voegt dan de volgende klik toe
+      huisVeranderd.className = "";  // Maakt het eerst leeg, en voegt dan de volgende klik hierdoner toe
       huisVeranderd.classList.add(this.id); // Hierin voeg je de class toe aan de hand van welke panel je klikt.
     }
   });
