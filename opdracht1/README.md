@@ -2,10 +2,10 @@
 
 Schetsen: Ik kwam meteen op het idee om een soort van lijst als dropdown toe te voegen, en dan rechts het model op klik te laten zien. Ik heb dit kort geschetst en ben daarna direct aan de slag gegaan.
 
-Inline-style:
-![alt text](https://github.com/thomas.stevens/opdracht1/img/README/versie1.png "Logo Title Text 1")
-
 Versie 1: resultaat is 'versie1.png' in de map. Ik heb een accordion gebruikt, en gekeken hoe ik dat kon neer zetten.
+
+Inline-style:
+![alt text](https://github.com/thomas-stevens/frontend-voor-designers-1920/blob/master/opdracht1/img/README/versie1.png "Logo Title Text 1")
 
 Versie 2: resultaat is 'versie2.png' in de map. Ik heb me volledig gefocust op de vormgeving en de 3d modellen van de verschillende huizen toegevoegd. Ik moet me nu nog focussen op de javascript, met als je klikt op een huis in de accordion - dan veranderd het plaatje rechts.
 
