@@ -3,7 +3,7 @@
 Schetsen: Ik kwam meteen op het idee om een soort van lijst als dropdown toe te voegen, en dan rechts het model op klik te laten zien. Ik heb dit kort geschetst en ben daarna direct aan de slag gegaan.
 
 Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/thomas.stevens/opdracht1/img/README/versie1.png "Logo Title Text 1")
 
 Versie 1: resultaat is 'versie1.png' in de map. Ik heb een accordion gebruikt, en gekeken hoe ik dat kon neer zetten.
 
