@@ -1,8 +1,108 @@
-<html>
-  <head>
-    <title>Frontend voor Designer - Opdracht 2</title>
-  </head>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voetbal | Carousel</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- UI Kit -->
+  <link rel="stylesheet" href="css/uikit.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Overpass&display=swap" rel="stylesheet">
+</head>
 
   <body>
+
+    <div class="intro">
+      <h1>Voetbal | Carousel</h1>
+      <p>Klik of grijp naar rechts, en kijk of de bal in het doel gaat!</p>
+    </div>
+
+    <div class="slider uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" autoplay draggable>
+
+        <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 10">
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/1.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>1</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/2.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>2</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/3.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>3</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/4.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>4</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/5.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>5</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/6.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>6</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/7.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>7</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/8.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>8</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/9.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>9</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/10.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>10</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/11.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>11</h2></div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-cover-container">
+                    <img src="images/12.jpeg" alt="" uk-cover>
+                    <div class="uk-position-right uk-panel"><h2>12</h2></div>
+                </div>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+    </div>
+
+
+    <script src="js/uikit.js" type="text/javascript"></script>
   </body>
+
 </html>

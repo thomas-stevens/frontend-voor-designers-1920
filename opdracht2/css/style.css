@@ -1,0 +1,25 @@
+.slider{
+  cursor: grab;
+}
+
+.slider:active{
+  cursor: grabbing;
+}
+
+.intro{
+  text-align: center;
+}
+
+.intro h1{
+  margin-top: 20px;
+  font-family: 'Anton';
+}
+
+.intro p{
+  font-family: Overpass;
+}
+
+h2{
+  background-color: #000;
+  padding: .4em;
+}
