@@ -10,7 +10,7 @@ Versie 1: resultaat is 'versie1.png' in de map. Ik heb een accordion gebruikt, e
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht1/img/README/versie1.png "Versie 1 van hoe ik het heb aangepakt")
 
-Versie 2: resultaat is 'versie2.png' in de map. Ik heb me volledig gefocust op de vormgeving en de 3d modellen van de verschillende huizen toegevoegd. Ik moet me nu nog focussen op de javascript, met als je klikt op een huis in de accordion - dan veranderd het plaatje rechts.
+Versie 2: resultaat is 'versie2.png' in de map. Ik heb me volledig gefocust op de vormgeving en de 3d modellen van de verschillende huizen toegevoegd. Ik moet me nu nog focussen op de javascript, met als je klikt op een huis in de accordion - dan veranderd het plaatje rechts. Ook heb ik een 'hover' css toegevoegd aan m'n website: https://ianlunn.github.io/Hover/ 
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht1/img/README/versie2.png "Versie 2 van hoe ik het heb aangepakt")
