@@ -1,34 +1,28 @@
-# Frontend voor Designers - opdracht 2: Een interactie uitwerken voor verschillende gebruikers input
+## Procesverslag
 
-Werk een functionaliteit uit die je kunt bedienen met 'click' en nog een user interactie, zoals het toetsenbord, tab, dubbel click, swipe, long press, <del>force touch</del>, of iets anders ... Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een [browser](https://en.m.wikipedia.org/wiki/List_of_web_browsers).
+Schetsen:
+De opdracht van de carousel leek me tof om te maken als een verhaal, en dat is ook een beetje wat ik geschetst heb. Ik voetbal veel dus vond het tof om dan als idee te kijken of de bal wel in het doel gaat.
 
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/schetsen.pdf "Schetsen van het idee")
 
-## Werkwijze
-Bedenk een functionaliteit die je op meerdere manieren kunt bedienen. Schets eerst hoe de functionaliteit er uit komt te zien. Maak daarna een breakdown-schets van hoe de verschillende elementen technisch moeten gaan werken...
+Versie1:
+Ik ging direct op zoek naar voorbeelden van verschillende sliders, slideshows, etc. En ik kwam terecht bij een Library van UIKit. Ik ben daar vervolgens mee aan het experimenteren en ik wil daar allemaal aanpassingen aan doen, qua hoe de slider beweegt en vormgeeft.
 
-Codeer de functionaliteit in HTML, CSS en JavaScript en test verschillende versies van je ontwerp in een browser.
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/versie1.png "Eerste versie van de opdracht")
 
-## Planning
-1. Les 3: Briefing opdracht 2 en beginnen met schetsen en coderen
-2. Les 4: Eerste versie testen
-3. Les 5: Oplevering en beoordeling
+Versie2:
+Voordat ik met de slider verder ging, vond ik het belangrijk om kleine hints te geven met wat je kan doen bij de slider, dus ik heb .gifjes toegevoegd van een hand die grijpt en door gaat naar rechts, en ook pijltjes die naar rechts klikt. Mijn volgende stap is om de slider te laten werken op het toetsenbord en vervolgens de vormgeving aan te passen van de slider.
 
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/arrow-right.gif "Gifje voor hulp")
 
-## Voorbeeld functionaliteit die je kunt maken
-- Carousel met vakantiefoto's: Een carousel met meerdere foto's van een vakantie, die je kan bedienen met een button en met de pijltjes op het toetsenbord.
-- Portfolio website met meerdere projecten en een biografie. Als je naar 'beneden' scrollt vult de betreffende section zich met informatie. Als je op tab klikt ga je ook naar de volgende section. Of als je 'volgende' roept ...
-- Settings panel op een foto-overzichtpagina: Instellingen zijn bijvoorbeeld de font-grootte, night vision en het aantal kolommen die naast elkaar worden getoond. Het bedienen van de instellingen moet met de muis en de sneltoetsen op het toetsenbord.
-- Je mag ook een eigen idee uitwerken. Kom dan eerst even overleggen.
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/versie2.png "Tweede versie van de opdracht")
 
+Versie3:
+Doordat ik Sanne toevallig tegen kwam, heeft die me door middel van KeyboardEvents een goed beginnetje gegeven!
 
-## Criteria
-
-1. In de demo maak je gebruik van verschillende [User Interface events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent).
-2.In de demo dien je rekening te houden met de interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/).
-3. Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op Github. <br>Voeg ook je breakdown-schets toe, en beschrijf je eerste idee en technische opzet en hoe het uiteindelijk is geworden.
-
-
-## Resources
-- Bekijk hier de lijst [User Interface Events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) die je in javascript kunt gebruiken.
-- Als je iets wil doen met scrollen, dan kun je het event 'scroll' gebruiken. Misschien kun je ook iets doen met de [Intersection observer](https://pawelgrzybek.com/the-intersection-observer-api-explained/)
-- Als een onderdeel van je pagina in beeld moet verschijnen na een click, dan kun je iets doen met [scrollIntoView](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView).
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/versie3.png "Derde versie van de opdracht")

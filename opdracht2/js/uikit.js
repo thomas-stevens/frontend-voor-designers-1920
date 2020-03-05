@@ -9067,7 +9067,7 @@
 
         data: {
             autoplay: false,
-            autoplayInterval: 7000,
+            autoplayInterval: 2550,
             pauseOnHover: true
         },
 
