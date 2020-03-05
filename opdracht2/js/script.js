@@ -1,10 +1,15 @@
 window.addEventListener('keydown', (e) => {
-  console.log(e.key);
-    if (e.key == 'ArrowRight') {
-      console.log('rechts');
-    }
 
-    else if (e.key == 'ArrowLeft'){
-      console.log('links');
-    }
+  if (e.key == 'ArrowRight') {
+
+    event.preventDefault();
+
+    document.getElementById("volgende").click();
+  }
+
+  else if (e.key == 'ArrowLeft'){
+    event.preventDefault();
+
+    document.getElementById("vorige").click();
+  }
 });
