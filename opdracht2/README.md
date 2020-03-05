@@ -4,7 +4,7 @@
 De opdracht van de carousel leek me tof om te maken als een verhaal, en dat is ook een beetje wat ik geschetst heb. Ik voetbal veel dus vond het tof om dan als idee te kijken of de bal wel in het doel gaat.
 
 Inline-style:
-![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/schetsen.pdf "Schetsen van het idee")
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/schetsen.png "Schetsen van het idee")
 
 ## Versie1:
 Ik ging direct op zoek naar voorbeelden van verschillende sliders, slideshows, etc. En ik kwam terecht bij een Library van UIKit. Ik ben daar vervolgens mee aan het experimenteren en ik wil daar allemaal aanpassingen aan doen, qua hoe de slider beweegt en vormgeeft.
