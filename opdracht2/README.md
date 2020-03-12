@@ -26,3 +26,10 @@ Doordat ik Sanne toevallig tegen kwam, heeft die me door middel van KeyboardEven
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/versie3.png "Derde versie van de opdracht")
+
+
+## Versie4:
+Keyboard functie afgemaakt samen met Jimmy, was veel gedoe omdat ik gebruik maakte van een library. Dus uiteindelijk hebben we een klikfunctie toegevoegd in de e.key.
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht2/images/README/versie4.png "Vierde versie van de opdracht")
