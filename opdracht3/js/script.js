@@ -32,7 +32,7 @@ function showMovies(jsonObj) {
     const myArticle = document.createElement('article');
     const myH2 = document.createElement('h2');
     const filmNummer = document.createElement('span');
-    const myPara1 = document.createElement('p');
+    const myPara1 = document.createElement('div');
     const myPara2 = document.createElement('p');
     const myPara3 = document.createElement('p');
     const myImg = document.createElement('img');

@@ -19,10 +19,28 @@ h2{
   font-family: 'Heebo', sans-serif;
 }
 
-p{
+p:first-of-type{
   color: #fff;
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+p:last-of-type{
+  color: #fff;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+div{
+  color: #fff;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  grid-row-start: 4;
+  grid-column-start: 2;
 }
 
 section{
@@ -34,23 +52,25 @@ section{
 
 article{
   display: grid;
-  grid-template-columns: 30vw 30vw 30vw;
+  grid-template-columns: 22vw 35vw 25vw;
   grid-column-gap: 2vw;
+  grid-template-rows: 5vw 3vw 3vw 23vw;
 }
 
 img{
-  width: 25vw;
+  width: 20vw;
   display: grid;
   grid-column-start: 1;
   grid-row-start: 1;
 }
 
 span{
-  font-size:10em;
+  font-size: 5em;
   font-family: 'Heebo', sans-serif;
   color: #F64C62;
   background-color: #fff;
   position: absolute;
+  left: .3em;
   padding: 0 .4em 0 .4em;
   border-radius: 90%;
 }
