@@ -80,6 +80,7 @@ span {
   border-radius: 90%;
 }
 
+/* Dark Mode */
 :root {
   --font-color: #FFFFFF;
   --bg-color: #2F2FA2;

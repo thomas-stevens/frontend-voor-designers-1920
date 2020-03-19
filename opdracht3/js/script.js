@@ -36,25 +36,23 @@ function showMovies(jsonObj) {
     const myPara2 = document.createElement('p');
     const myPara3 = document.createElement('p');
     const myImg = document.createElement('img');
-    // const myVid = document.createElement('mp4');
-    const myList = document.createElement('ul');
+    const trailer = document.createElement('button');
 
     myH2.textContent = movies[i].title;
+    filmNummer.textContent = movies[i].id;
     myPara1.textContent = 'Plot: ' + movies[i].simple_plot;
     myPara2.textContent = 'Genres: ' + movies[i].genres;
     myPara3.textContent = 'Release Date: ' + movies[i].release_date;
     myImg.src = movies[i].cover;
-    filmNummer.textContent = movies[i].id;
-    // myVid.src = movies[i].trailer;
+    trailer.textContent = 'Trailer > ' + movies[i].trailer;
 
     myArticle.appendChild(myH2);
+    myArticle.appendChild(filmNummer);
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
-    myArticle.appendChild(filmNummer);
     myArticle.appendChild(myImg);
-    // myArticle.appendChild(myVid);
-    myArticle.appendChild(myList);
+    myArticle.appendChild(trailer);
 
     section.appendChild(myArticle);
   }
