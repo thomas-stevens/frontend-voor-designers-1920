@@ -1,3 +1,6 @@
+### Vragen:
+1. In plaats van “const myPara2 = document.createElement(‘p’);” wil ik een div maken met een class. Enige tot hoe ver ik kom is dit ”const myPara2 = document.createElement(‘div’);” - Maar hoe voeg ik hier ook direct een class aan toe zodat ik die apart kan stijlen?
+
 # Procesverslag - Opdracht 3
 
 ## Schetsen:
@@ -11,3 +14,14 @@ Een goed begin gemaakt en een beetje gespeeld met de JSON. Ik snap het, en begin
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie1.png "Versie 1 van het concept")
+
+## Versie2:
+Stijl aangepast, en alles netjes onder elkaar in kolommen gezet met display grid. Ook een Dark Mode functie rechts bovenin gezet, en die werkte eindelijk na uren dingen proberen en zoeken. Ik wil me nu op de volgende dingen focussen: Filter op release date, genre, etc, Lightbox/Pop up met de trailer van de film, Focus leggen met tab, en key functie. Misschien ook nog een lijst | blok optie van de films.
+
+### Licht:
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie2-licht.png "Versie 2 van het concept")
+
+### Donker:
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie2-donker.png "Versie 2 van het concept")
