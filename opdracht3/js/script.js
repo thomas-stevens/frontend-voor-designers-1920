@@ -37,6 +37,7 @@ function showMovies(jsonObj) {
     const myPara3 = document.createElement('p');
     const myImg = document.createElement('img');
     const trailer = document.createElement('button');
+    const review = document.createElement('div');
 
     myH2.textContent = movies[i].title;
     filmNummer.textContent = movies[i].id;
@@ -44,7 +45,12 @@ function showMovies(jsonObj) {
     myPara2.textContent = 'Genres: ' + movies[i].genres;
     myPara3.textContent = 'Release Date: ' + movies[i].release_date;
     myImg.src = movies[i].cover;
-    trailer.textContent = 'Trailer > ' + movies[i].trailer;
+    trailer.textContent = 'Trailer';
+    review.textContent = 'Review: ' + movies[i].reviews;
+
+    myPara1.classList.add("plot");
+    trailer.classList.add("knop");
+    review.classList.add("review")
 
     myArticle.appendChild(myH2);
     myArticle.appendChild(filmNummer);
@@ -53,6 +59,7 @@ function showMovies(jsonObj) {
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myImg);
     myArticle.appendChild(trailer);
+    myArticle.appendChild(review);
 
     section.appendChild(myArticle);
   }

@@ -39,7 +39,7 @@ p:last-of-type {
   margin-top: 0;
 }
 
-div {
+.plot {
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
   grid-row-start: 4;
@@ -58,13 +58,40 @@ article {
   display: grid;
   grid-template-columns: 22vw 35vw 25vw;
   grid-column-gap: 2vw;
-  grid-template-rows: 5vw 3vw 3vw 23vw;
+  grid-template-rows: 5vw 3vw 3vw 9vw 20vw;
 }
 
 img {
   width: 20vw;
   display: grid;
   grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.knop {
+  background-color: var(--padding-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 2.5em;
+  font-size: 1.5em;
+  font-family: 'Heebo', sans-serif;
+  border: 0;
+  transition: .2s ease-out;
+  cursor: pointer;
+  grid-column-start: 2;
+}
+
+.knop:hover{
+  transition: .2s ease-in;
+  background-color: #BB4C62;
+  border-radius: 30px;
+}
+
+.review{
+  grid-column-start: 3;
   grid-row-start: 1;
 }
 
@@ -104,9 +131,9 @@ span {
   top: 4em;
 }
 
-.theme-switch-wrapper em {
+.theme-switch-wrapper p {
   margin-left: 10px;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .theme-switch {
