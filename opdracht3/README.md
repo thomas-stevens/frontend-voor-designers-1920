@@ -25,3 +25,9 @@ Inline-style:
 ### Donker:
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie2-donker.png "Versie 2 van het concept")
+
+## Versie3:
+Trailer knop gemaakt en onder het plot gezet. Ik probeer nu de reviews neer te zetten aan de rechter kant, maar ik krijg alleen maar 'objects'.. Ik moet even kijken hoe ik dat ga aanpakken.
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie3.png "Versie 3 van het concept")
