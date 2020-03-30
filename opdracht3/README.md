@@ -1,5 +1,5 @@
-### Vragen:
-1. In plaats van “const myPara2 = document.createElement(‘p’);” wil ik een div maken met een class. Enige tot hoe ver ik kom is dit ”const myPara2 = document.createElement(‘div’);” - Maar hoe voeg ik hier ook direct een class aan toe zodat ik die apart kan stijlen?
+
+### Link naar opdracht 3: https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/
 
 # Procesverslag - Opdracht 3
 
