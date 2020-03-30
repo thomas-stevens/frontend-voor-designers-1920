@@ -31,3 +31,9 @@ Trailer knop gemaakt en onder het plot gezet. Ik probeer nu de reviews neer te z
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie3.png "Versie 3 van het concept")
+
+## Versie4:
+Nu meer gefocust op hoe het er uit komt te zien. Dus veel aanpassingen in de stijl. Veel responsive aanpassingen gemaakt.
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie4.png "Versie 4 van het concept")
