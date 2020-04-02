@@ -42,4 +42,4 @@ Inline-style:
 Filter toegevoegd, alleen hij moet nog werkend worden...
 
 Inline-style:
-![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie4.png "Versie 5 van het concept")
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie5.png "Versie 5 van het concept")
