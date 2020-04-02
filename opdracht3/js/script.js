@@ -48,6 +48,11 @@ function showMovies(jsonObj) {
     trailer.textContent = 'Trailer';
     review.textContent = 'Review: ' + movies[i].reviews;
 
+    for (let t = 1; t < movies[i].reviews.length; t++) {
+      let reviewScore = movies[i].reviews[t].score;
+      // en dan nog code om de review aan je film teo te voegen
+    }
+
     myPara1.classList.add("plot");
     trailer.classList.add("knop");
     review.classList.add("review")
@@ -62,5 +67,6 @@ function showMovies(jsonObj) {
     myArticle.appendChild(review);
 
     section.appendChild(myArticle);
+
   }
 }
