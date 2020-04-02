@@ -19,6 +19,12 @@ h1 {
   transition: .2s ease-out;
 }
 
+@media (min-width: 730px) {
+  h1:hover{
+    border-bottom-right-radius:60px;
+  }
+}
+
 @media (max-width: 730px) {
   h1{
     width: 100%;
