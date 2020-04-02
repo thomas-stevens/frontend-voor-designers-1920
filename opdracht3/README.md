@@ -37,3 +37,9 @@ Nu meer gefocust op hoe het er uit komt te zien. Dus veel aanpassingen in de sti
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie4.png "Versie 4 van het concept")
+
+## Versie5:
+Filter toegevoegd, alleen hij moet nog werkend worden...
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie4.png "Versie 5 van het concept")
