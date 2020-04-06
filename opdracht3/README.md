@@ -43,3 +43,15 @@ Filter toegevoegd, alleen hij moet nog werkend worden...
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie5.png "Versie 5 van het concept")
+
+## Versie6:
+Filter is werkend, en dat kostte veel tijd. Ook zijn de reviews erin verwerkt met behulp van Sanne, en die zijn ook vormgegeven.
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie6.png "Versie 6 van het concept")
+
+### Filter:
+Werkt op iedere genre :)
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/filter.png "Versie 5 van het concept")

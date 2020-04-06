@@ -417,6 +417,7 @@ input:checked+.slider:before {
     display: inline-block;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: .5em;
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {
