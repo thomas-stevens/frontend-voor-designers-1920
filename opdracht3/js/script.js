@@ -15,16 +15,6 @@ request.onload = function() {
   showMovies(movies);
 }
 
-// function populateHeader(jsonObj) {
-//   const myH1 = document.createElement('h1');
-//   myH1.textContent = jsonObj['squadName'];
-//   header.appendChild(myH1);
-//
-//   const myPara = document.createElement('p');
-//   myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-//   header.appendChild(myPara);
-// }
-
 function showMovies(jsonObj) {
   const movies = jsonObj;
 
@@ -55,6 +45,12 @@ function showMovies(jsonObj) {
       review.textContent = reviewScore;
 		reviews.appendChild(review);
     }
+
+    for (t = 0; t < movies[i].genres.length; t++) {
+    let genre = movies[i].genres[t];
+    genre = genre.toLowerCase(); // om de hoofdletter weg te halen
+    myArticle.classList.add(genre);
+}
 
     myPara1.classList.add("plot");
     trailer.classList.add("knop");

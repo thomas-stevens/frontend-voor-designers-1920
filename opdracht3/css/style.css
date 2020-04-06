@@ -242,6 +242,12 @@ li:hover{
   font-family: 'Heebo', sans-serif;
 }
 
+@media (max-width: 1100px) {
+  .review-title {
+    display: none;
+  }
+}
+
 h3:nth-last-child(6){
   display: none;
 }
@@ -377,7 +383,7 @@ input:checked+.slider:before {
   position: absolute;
   top: 14em;
   left: 4em;
-  right: 0;
+  width: 70vw;
 }
 
 @media (max-width: 730px){
@@ -386,10 +392,13 @@ input:checked+.slider:before {
   }
   .filters {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       position: static;
       margin-bottom: 2em;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
 
