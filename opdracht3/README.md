@@ -54,4 +54,4 @@ Inline-style:
 Werkt op iedere genre :)
 
 Inline-style:
-![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/filter.png "Versie 5 van het concept")
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/filter.png "Filter")
