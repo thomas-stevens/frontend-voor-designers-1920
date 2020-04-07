@@ -96,38 +96,37 @@ document.body.addEventListener('keydown', function (event) {
         donker.checked = true;
     }
     else if (event.keyCode == 49) {
-        // document.getElementById('#all'); - Werkt niet
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "all");
         var een = document.querySelector("#all");
         een.checked = true;
     }
     else if (event.keyCode == 50) {
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "action");
         var twee = document.querySelector("#action");
         twee.checked = true;
     }
     else if (event.keyCode == 51) {
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "adventure");
         var drie = document.querySelector("#adventure");
         drie.checked = true;
     }
     else if (event.keyCode == 52) {
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "crime");
         var vier = document.querySelector("#crime");
         vier.checked = true;
     }
     else if (event.keyCode == 53) {
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "drama");
         var vijf = document.querySelector("#drama");
         vijf.checked = true;
     }
     else if (event.keyCode == 54) {
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "horror");
         var zes = document.querySelector("#horror");
         zes.checked = true;
     }
     else if (event.keyCode == 55) {
-        document.body.setAttribute("checked", event.target.id);
+        document.body.setAttribute("data-filter", "thriller");
         var zeven = document.querySelector("#thriller");
         zeven.checked = true;
     }
