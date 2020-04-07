@@ -41,16 +41,16 @@ function showMovies(jsonObj) {
 
     for (let t = 0; t < movies[i].reviews.length; t++) {
       let review = document.createElement('li');
-		let reviewScore = movies[i].reviews[t].score;
+      let reviewScore = movies[i].reviews[t].score;
       review.textContent = reviewScore;
-		reviews.appendChild(review);
+      reviews.appendChild(review);
     }
 
     for (t = 0; t < movies[i].genres.length; t++) {
-    let genre = movies[i].genres[t];
-    genre = genre.toLowerCase(); // om de hoofdletter weg te halen
-    myArticle.classList.add(genre);
-}
+      let genre = movies[i].genres[t];
+      genre = genre.toLowerCase(); // om de hoofdletter weg te halen
+      myArticle.classList.add(genre);
+    }
 
     myPara1.classList.add("plot");
     trailer.classList.add("knop");
@@ -75,59 +75,65 @@ function showMovies(jsonObj) {
 
 var filterblok = document.querySelector(".filters");
 
-filterblok.addEventListener('change', function (event) {
+filterblok.addEventListener('change', function(event) {
 
-document.body.setAttribute("data-filter", event.target.id);
+  document.body.setAttribute("data-filter", event.target.id);
 
 });
 
 
 // Keyboard functies
 
-document.body.addEventListener('keydown', function (event) {
-    if (event.keyCode == 189) {
-        document.documentElement.setAttribute('data-theme', 'light');
-        var licht = document.querySelector("#checkbox");
-        licht.checked = false;
-    }
-    else if (event.keyCode == 187) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        var donker = document.querySelector("#checkbox");
-        donker.checked = true;
-    }
-    else if (event.keyCode == 49) {
-        document.body.setAttribute("data-filter", "all");
-        var een = document.querySelector("#all");
-        een.checked = true;
-    }
-    else if (event.keyCode == 50) {
-        document.body.setAttribute("data-filter", "action");
-        var twee = document.querySelector("#action");
-        twee.checked = true;
-    }
-    else if (event.keyCode == 51) {
-        document.body.setAttribute("data-filter", "adventure");
-        var drie = document.querySelector("#adventure");
-        drie.checked = true;
-    }
-    else if (event.keyCode == 52) {
-        document.body.setAttribute("data-filter", "crime");
-        var vier = document.querySelector("#crime");
-        vier.checked = true;
-    }
-    else if (event.keyCode == 53) {
-        document.body.setAttribute("data-filter", "drama");
-        var vijf = document.querySelector("#drama");
-        vijf.checked = true;
-    }
-    else if (event.keyCode == 54) {
-        document.body.setAttribute("data-filter", "horror");
-        var zes = document.querySelector("#horror");
-        zes.checked = true;
-    }
-    else if (event.keyCode == 55) {
-        document.body.setAttribute("data-filter", "thriller");
-        var zeven = document.querySelector("#thriller");
-        zeven.checked = true;
-    }
+document.body.addEventListener('keydown', function(event) {
+  if (event.keyCode == 189) {
+    document.documentElement.setAttribute('data-theme', 'light');
+    var licht = document.querySelector("#checkbox");
+    licht.checked = false;
+  } else if (event.keyCode == 187) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    var donker = document.querySelector("#checkbox");
+    donker.checked = true;
+  } else if (event.keyCode == 49) {
+    document.body.setAttribute("data-filter", "all");
+    var een = document.querySelector("#all");
+    een.checked = true;
+  } else if (event.keyCode == 50) {
+    document.body.setAttribute("data-filter", "action");
+    var twee = document.querySelector("#action");
+    twee.checked = true;
+  } else if (event.keyCode == 51) {
+    document.body.setAttribute("data-filter", "adventure");
+    var drie = document.querySelector("#adventure");
+    drie.checked = true;
+  } else if (event.keyCode == 52) {
+    document.body.setAttribute("data-filter", "crime");
+    var vier = document.querySelector("#crime");
+    vier.checked = true;
+  } else if (event.keyCode == 53) {
+    document.body.setAttribute("data-filter", "drama");
+    var vijf = document.querySelector("#drama");
+    vijf.checked = true;
+  } else if (event.keyCode == 54) {
+    document.body.setAttribute("data-filter", "horror");
+    var zes = document.querySelector("#horror");
+    zes.checked = true;
+  } else if (event.keyCode == 55) {
+    document.body.setAttribute("data-filter", "thriller");
+    var zeven = document.querySelector("#thriller");
+    zeven.checked = true;
+  }
 });
+
+var gifHover = document.getElementById("instructie");
+gifHover.addEventListener("mouseover", keyboardHelp, false);
+gifHover.addEventListener("mouseout", keyboardGif, false);
+
+function keyboardHelp()
+{
+   gifHover.setAttribute("style", "background-image: url(../img/keyboard-help.png); position: absolute; right: 15em; top: 4em; width: 3em;")
+}
+
+function keyboardGif()
+{
+   gifHover.setAttribute("style", "background-image: url(../img/keyboard.gif);")
+}

@@ -291,6 +291,17 @@ span {
   }
 }
 
+#instructie{
+  position: absolute;
+  right: 15em;
+  top: 4em;
+  width: 3em;
+}
+
+#instructie:hover{
+  cursor: pointer;
+  background-image: url(../img/keyboard-help.png);
+}
 
 /* Dark Mode */
 :root {
