@@ -55,3 +55,9 @@ Werkt op iedere genre :)
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/filter.png "Filter")
+
+### Key-functies:
+De nummers 1 t/m 7 toegevoegd aan de genres in het filter, en + & - voor de donker en licht switch.
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/ekey.png "Keys")
