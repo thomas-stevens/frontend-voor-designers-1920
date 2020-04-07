@@ -72,6 +72,8 @@ function showMovies(jsonObj) {
   }
 }
 
+// Filters
+
 var filterblok = document.querySelector(".filters");
 
 filterblok.addEventListener('change', function (event) {

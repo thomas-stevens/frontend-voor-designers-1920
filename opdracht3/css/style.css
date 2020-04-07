@@ -24,8 +24,10 @@ h1 {
   padding: 1em;
   margin-bottom: 4em;
   background-color: var(--padding-color);
+  color: var(--font-color);
   width: 7em;
   transition: .2s ease-out;
+  line-height: normal;
 }
 
 @media (min-width: 730px) {
@@ -103,6 +105,8 @@ article {
   grid-template-columns: 22vw 35vw 25vw;
   grid-column-gap: 2vw;
   grid-template-rows: 5vw 3vw 3vw 9vw 20vw;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 1100px) {
@@ -211,6 +215,8 @@ img {
   list-style-type: none;
   font-size: 2em;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 1100px) {
@@ -240,6 +246,8 @@ li:hover{
   color: #fff;
   font-size: 1.5em;
   font-family: 'Heebo', sans-serif;
+  line-height: normal;
+  margin: 0;
 }
 
 @media (max-width: 1100px) {
@@ -317,7 +325,7 @@ span {
 }
 
 .theme-switch-wrapper p {
-  margin-left: 10px;
+  margin: 0 0 0 10px;
   font-size: 1em;
 }
 
@@ -376,6 +384,8 @@ input:checked+.slider:before {
   color: #fff;
   font-size: 2em;
   font-family: 'Heebo', sans-serif;
+  line-height: normal;
+  margin: 0;
 }
 
 .filters{
