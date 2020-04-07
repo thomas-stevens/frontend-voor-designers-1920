@@ -291,16 +291,37 @@ span {
   }
 }
 
-#instructie{
-  position: absolute;
-  right: 15em;
+#instructie-gif{
+	position: absolute;
+ 	right: 15em;
   top: 4em;
   width: 3em;
+ 	opacity:1;
+  transition: .2s ease-out;
 }
 
-#instructie:hover{
+#instructie-help{
+	position: absolute;
+ 	right: 15em;
+  top: 1em;
+  width: 13em;
+ 	opacity:0;
+  transform: scale(.1);
+  transition: .2s ease-out;
+}
+
+header:hover #instructie-gif {
   cursor: pointer;
-  background-image: url(../img/keyboard-help.png);
+  opacity:0;
+  transition: .2s ease-in;
+  transform: scale(.1);
+}
+
+header:hover #instructie-help {
+  cursor: pointer;
+  opacity:1;
+  transition: .2s ease-in;
+  transform: scale(1);
 }
 
 /* Dark Mode */

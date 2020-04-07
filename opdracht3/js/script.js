@@ -124,16 +124,16 @@ document.body.addEventListener('keydown', function(event) {
   }
 });
 
-var gifHover = document.getElementById("instructie");
-gifHover.addEventListener("mouseover", keyboardHelp, false);
-gifHover.addEventListener("mouseout", keyboardGif, false);
-
-function keyboardHelp()
-{
-   gifHover.setAttribute("style", "background-image: url(../img/keyboard-help.png); position: absolute; right: 15em; top: 4em; width: 3em;")
-}
-
-function keyboardGif()
-{
-   gifHover.setAttribute("style", "background-image: url(../img/keyboard.gif);")
-}
+// var gifHover = document.getElementById("instructie");
+// gifHover.addEventListener("mouseover", keyboardHelp, false);
+// gifHover.addEventListener("mouseout", keyboardGif, false);
+//
+// function keyboardHelp()
+// {
+//    gifHover.setAttribute("style", "background-image: url(../img/keyboard-help.png); position: absolute; right: 15em; top: 4em; width: 3em;")
+// }
+//
+// function keyboardGif()
+// {
+//    gifHover.setAttribute("style", "background-image: url(../img/keyboard.gif);")
+// }
