@@ -68,7 +68,6 @@ function showMovies(jsonObj) {
     myArticle.appendChild(reviews);
 
     section.appendChild(myArticle);
-
   }
 }
 
@@ -80,4 +79,56 @@ filterblok.addEventListener('change', function (event) {
 
 document.body.setAttribute("data-filter", event.target.id);
 
+});
+
+
+// Keyboard functies
+
+document.body.addEventListener('keydown', function (event) {
+    if (event.keyCode == 189) {
+        document.documentElement.setAttribute('data-theme', 'light');
+        var licht = document.querySelector("#checkbox");
+        licht.checked = false;
+    }
+    else if (event.keyCode == 187) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        var donker = document.querySelector("#checkbox");
+        donker.checked = true;
+    }
+    else if (event.keyCode == 49) {
+        // document.getElementById('#all'); - Werkt niet
+        document.body.setAttribute("checked", event.target.id);
+        var een = document.querySelector("#all");
+        een.checked = true;
+    }
+    else if (event.keyCode == 50) {
+        document.body.setAttribute("checked", event.target.id);
+        var twee = document.querySelector("#action");
+        twee.checked = true;
+    }
+    else if (event.keyCode == 51) {
+        document.body.setAttribute("checked", event.target.id);
+        var drie = document.querySelector("#adventure");
+        drie.checked = true;
+    }
+    else if (event.keyCode == 52) {
+        document.body.setAttribute("checked", event.target.id);
+        var vier = document.querySelector("#crime");
+        vier.checked = true;
+    }
+    else if (event.keyCode == 53) {
+        document.body.setAttribute("checked", event.target.id);
+        var vijf = document.querySelector("#drama");
+        vijf.checked = true;
+    }
+    else if (event.keyCode == 54) {
+        document.body.setAttribute("checked", event.target.id);
+        var zes = document.querySelector("#horror");
+        zes.checked = true;
+    }
+    else if (event.keyCode == 55) {
+        document.body.setAttribute("checked", event.target.id);
+        var zeven = document.querySelector("#thriller");
+        zeven.checked = true;
+    }
 });
