@@ -15,7 +15,7 @@ body[data-filter="crime"] article:not(.crime),
 body[data-filter="drama"] article:not(.drama),
 body[data-filter="horror"] article:not(.horror),
 body[data-filter="thriller"] article:not(.thriller) {
-    display:none;
+  display: none;
 }
 
 h1 {
@@ -31,13 +31,13 @@ h1 {
 }
 
 @media (min-width: 730px) {
-  h1:hover{
-    border-bottom-right-radius:60px;
+  h1:hover {
+    border-bottom-right-radius: 60px;
   }
 }
 
 @media (max-width: 730px) {
-  h1{
+  h1 {
     width: 100%;
     text-align: center;
     padding: 1em 0;
@@ -166,7 +166,7 @@ img {
 }
 
 @media (max-width: 730px) {
-  img{
+  img {
     width: 40vw;
     place-self: center;
   }
@@ -226,7 +226,7 @@ img {
   }
 }
 
-li{
+li {
   display: inline-block;
   padding: .1em .6em .1em .6em;
   margin-right: 1em;
@@ -235,7 +235,7 @@ li{
   transition: .2s ease-out;
 }
 
-li:hover{
+li:hover {
   border-radius: 100%;
   transition: .2s ease-in;
 }
@@ -257,7 +257,7 @@ li:hover{
   }
 }
 
-h3:nth-last-child(6){
+h3:nth-last-child(6) {
   display: none;
 }
 
@@ -292,39 +292,39 @@ span {
   }
 }
 
-#instructie-gif{
-	position: absolute;
- 	right: 15em;
+#instructie-gif {
+  position: absolute;
+  right: 15em;
   top: 4em;
   width: 3em;
- 	opacity:1;
+  opacity: 1;
   transition: .2s ease-out;
 }
 
-#instructie-help{
-	position: absolute;
- 	right: 15em;
+#instructie-help {
+  position: absolute;
+  right: 15em;
   top: 1em;
   width: 13em;
- 	opacity:0;
+  opacity: 0;
   transform: scale(.1);
   transition: .2s ease-out;
 }
 
 @media (max-width: 890px) {
-  .keyboards{
+  .keyboards {
     display: none;
   }
 }
 
 header:hover #instructie-gif {
-  opacity:0;
+  opacity: 0;
   transition: .2s ease-in;
   transform: scale(.1);
 }
 
 header:hover #instructie-help {
-  opacity:1;
+  opacity: 1;
   transition: .2s ease-in;
   transform: scale(1);
 }
@@ -354,7 +354,7 @@ header:hover #instructie-help {
 }
 
 @media (max-width: 730px) {
-  .theme-switch-wrapper{
+  .theme-switch-wrapper {
     justify-content: center;
     position: static;
     margin: 2em;
@@ -416,8 +416,7 @@ input:checked+.slider:before {
 }
 
 /* Filters */
-
-.filterheading{
+.filterheading {
   color: #fff;
   font-size: 2em;
   font-family: 'Heebo', sans-serif;
@@ -425,7 +424,7 @@ input:checked+.slider:before {
   margin: 0;
 }
 
-.filters{
+.filters {
   display: inline-block;
   position: absolute;
   top: 14em;
@@ -433,78 +432,83 @@ input:checked+.slider:before {
   width: 70vw;
 }
 
-@media (max-width: 730px){
-  .filterheading{
+@media (max-width: 730px) {
+  .filterheading {
     display: none;
   }
+
   .filters {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      position: static;
-      margin-bottom: 2em;
-      margin-left: auto;
-      margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
-    position: absolute;
-    left: -9999px;
-}
-[type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label
-{
-    position: relative;
-    padding: 0 1.5em;
-    cursor: pointer;
-    line-height: 20px;
-    display: inline-block;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: .5em;
-}
-[type="radio"]:checked + label:before,
-[type="radio"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 18px;
-    height: 18px;
-    border: 1px solid #fff;
-    border-radius: 300%;
-    background: #fff;
-}
-[type="radio"]:checked + label:after,
-[type="radio"]:not(:checked) + label:after {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background-color: var(--padding-color);
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-[type="radio"]:not(:checked) + label:after {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-}
-[type="radio"]:checked + label:after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
+  position: absolute;
+  left: -9999px;
 }
 
-footer{
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
+  position: relative;
+  padding: 0 1.5em;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: .5em;
+}
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
+  border-radius: 300%;
+  background: #fff;
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: var(--padding-color);
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+[type="radio"]:checked+label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+footer {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-evenly;
   width: 100vw;
   height: 5em;
@@ -518,36 +522,37 @@ footer{
 }
 
 @media (max-width: 500px) {
-  footer{
+  footer {
     display: block;
     padding: 1em 0;
   }
 }
 
-footer:hover{
+footer:hover {
   transition: .2s ease-in;
 }
 
-footer p{
+footer p {
   text-align: center;
 }
 
-footer a{
+footer a {
   position: relative;
   text-decoration: none;
   color: var(--font-color);
 }
 
-footer a:hover:after{
+footer a:hover:after {
   width: 100%;
   left: 0;
   background: #fff;
 }
 
-footer a:after{
+footer a:after {
   content: '';
   position: absolute;
-  width: 0; height: 2px;
+  width: 0;
+  height: 2px;
   display: block;
   margin-top: -2px;
   right: 0;
