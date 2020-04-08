@@ -124,6 +124,14 @@ document.body.addEventListener('keydown', function(event) {
   }
 });
 
+var youtube = document.querySelector('.knop');
+
+function link() {
+  youtube.location.href = "https://www.youtube.com/";
+}
+
+youtube.addEventListener('click',link);
+
 // var gifHover = document.getElementById("instructie");
 // gifHover.addEventListener("mouseover", keyboardHelp, false);
 // gifHover.addEventListener("mouseout", keyboardGif, false);

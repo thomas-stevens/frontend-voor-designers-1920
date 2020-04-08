@@ -61,3 +61,15 @@ De nummers 1 t/m 7 toegevoegd aan de genres in het filter, en + & - voor de donk
 
 Inline-style:
 ![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/ekey.png "Keys")
+
+## Versie7:
+Alles is zo goed als af, ik ben nu nog bezig met de laatste kleine dingetjes. Ik heb een .gif toegevoegd met een hover state zodat je kan zien welke key functies er allemaal zijn.
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/versie7.png "Versie 7 van het concept")
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/gifje.png "Gifje van het idee")
+
+Inline-style:
+![alt text](https://thomas-stevens.github.io/frontend-voor-designers-1920/opdracht3/img/README/hover-gif.png "Hover state van het gifje")

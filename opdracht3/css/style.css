@@ -310,15 +310,19 @@ span {
   transition: .2s ease-out;
 }
 
+@media (max-width: 890px) {
+  .keyboards{
+    display: none;
+  }
+}
+
 header:hover #instructie-gif {
-  cursor: pointer;
   opacity:0;
   transition: .2s ease-in;
   transform: scale(.1);
 }
 
 header:hover #instructie-help {
-  cursor: pointer;
   opacity:1;
   transition: .2s ease-in;
   transform: scale(1);
@@ -495,4 +499,58 @@ input:checked+.slider:before {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+footer{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--padding-color);
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  transition: .2s ease-out;
+}
+
+@media (max-width: 500px) {
+  footer{
+    display: block;
+    padding: 1em 0;
+  }
+}
+
+footer:hover{
+  transition: .2s ease-in;
+}
+
+footer p{
+  text-align: center;
+}
+
+footer a{
+  position: relative;
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+footer a:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+
+footer a:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  display: block;
+  margin-top: -2px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
 }
