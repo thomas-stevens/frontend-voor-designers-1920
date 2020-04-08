@@ -28,7 +28,7 @@ function showMovies(jsonObj) {
     let myPara3 = document.createElement('p');
     let myImg = document.createElement('img');
 
-	  /* een link is een <a> en geen <button > */
+    /* een link is een <a> en geen <button > */
     let trailer = document.createElement('a');
 
     let reviews = document.createElement('ul');
@@ -42,8 +42,8 @@ function showMovies(jsonObj) {
     myImg.src = movies[i].cover;
 
     trailer.textContent = 'Trailer';
-	 /* de link een href geven */
-	  trailer.href = movies[i].trailer;
+    /* de link een href geven */
+    trailer.href = movies[i].trailer;
 
     for (let t = 0; t < movies[i].reviews.length; t++) {
       let review = document.createElement('li');
@@ -136,18 +136,4 @@ function link() {
   youtube.location.href = "https://www.youtube.com/";
 }
 
-youtube.addEventListener('click',link);
-
-// var gifHover = document.getElementById("instructie");
-// gifHover.addEventListener("mouseover", keyboardHelp, false);
-// gifHover.addEventListener("mouseout", keyboardGif, false);
-//
-// function keyboardHelp()
-// {
-//    gifHover.setAttribute("style", "background-image: url(../img/keyboard-help.png); position: absolute; right: 15em; top: 4em; width: 3em;")
-// }
-//
-// function keyboardGif()
-// {
-//    gifHover.setAttribute("style", "background-image: url(../img/keyboard.gif);")
-// }
+youtube.addEventListener('click', link);
