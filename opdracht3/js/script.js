@@ -27,7 +27,10 @@ function showMovies(jsonObj) {
     let myPara2 = document.createElement('p');
     let myPara3 = document.createElement('p');
     let myImg = document.createElement('img');
-    let trailer = document.createElement('button');
+
+	  /* een link is een <a> en geen <button > */
+    let trailer = document.createElement('a');
+
     let reviews = document.createElement('ul');
 
     myH2.textContent = movies[i].title;
@@ -37,7 +40,10 @@ function showMovies(jsonObj) {
     myPara2.textContent = 'Genres: ' + movies[i].genres;
     myPara3.textContent = 'Release Date: ' + movies[i].release_date;
     myImg.src = movies[i].cover;
+
     trailer.textContent = 'Trailer';
+	 /* de link een href geven */
+	  trailer.href = movies[i].trailer;
 
     for (let t = 0; t < movies[i].reviews.length; t++) {
       let review = document.createElement('li');
